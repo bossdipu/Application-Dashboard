@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rightbar {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100vh;
+    background: #fff;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo img {
+    height: 100px;
+    width: auto;
+}
+
+.mid-part {
+    display: flex;
+    justify-content: space-between;
+    width: 64vw;
+}
+
+.mid-cont1 {
+    width: 250px;
+    height: 66px;
+    border-radius: 10px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.mid-cont1-bold {
+    background: rgb(214, 207, 207);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-right: 10px;
+}
+
+.mid-cont-text p {
+    font-size: 12px;
+}
+
+.mid-cont-text {
+    margin-right: 10px;
+}
+
+.mid-part progress {
+    width: 80px;
+    margin-left: 10px;
+    height: 10px;
+}
+
+.mid-part2 {
+    display: flex;
+    justify-content: space-between;
+    width: 64vw;
+}
+
+.mid-cont2 {
+    width: 250px;
+    height: 66px;
+    border-radius: 10px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.mid-cont1-bold2 {
+    background: rgb(214, 207, 207);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-right: 10px;
+}
+
+.mid-part2 progress {
+    width: 80px;
+    margin-left: 50px;
+    height: 10px;
+}
+
+.remain {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.mid-part .mid-cont1 .info {
+    background-color: rgb(221, 179, 164);
+}
+
+.mid-part .mid-cont1 .mark {
+    background-color: rgb(166, 166, 211);
+}
